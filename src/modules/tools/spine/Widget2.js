@@ -2,12 +2,12 @@
  * Created by Nonjene on 2016/10/5.
  */
 
-var Class = require('./Class2');
-var Event = require('./Event');
+var Class = require("./Class2");
+var Event = require("./Event");
 
 var Widget = {
-    create: function (Father,obj) {
-        if(!obj){
+    create: function(Father, obj) {
+        if (!obj) {
             obj = Father;
             Father = Event;
         }
@@ -15,6 +15,6 @@ var Widget = {
         this._list.push(_Class);
         return _Class;
     },
-    _list:[]
+    _list: []
 };
 module.exports = Widget;

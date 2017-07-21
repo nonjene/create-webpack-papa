@@ -1,9 +1,7 @@
 /**
  * Created by Nonjene on 16/9/23.
  */
-var Event = function() {
-
-};
+var Event = function() {};
 
 Event.prototype = {
     _checkSlot: function() {
@@ -12,7 +10,7 @@ Event.prototype = {
         }
     },
     on: function(eve, cb) {
-        if (typeof cb !== 'function') return this;
+        if (typeof cb !== "function") return this;
         this._checkSlot();
 
         var slot = this._slot[eve];
@@ -35,7 +33,9 @@ Event.prototype = {
         var allEve = this._slot[eve];
         if (!allEve) return this;
         allEve.forEach(function(eFunc) {
-            try {eFunc.apply(that, params);} catch (e) {}
+            try {
+                eFunc.apply(that, params);
+            } catch (e) {}
         });
     },
 
@@ -46,12 +46,15 @@ Event.prototype = {
         var eve = args[0],
             params = args.slice(1);
 
-        if (~eve.indexOf('.ins')) {
-            return this._doTrigger(eve.slice(0, eve.indexOf('.ins')), params);
-        }else{
-            setTimeout(function() {
-                return this._doTrigger(eve, params);
-            }.bind(this), 0);
+        if (~eve.indexOf(".ins")) {
+            return this._doTrigger(eve.slice(0, eve.indexOf(".ins")), params);
+        } else {
+            setTimeout(
+                function() {
+                    return this._doTrigger(eve, params);
+                }.bind(this),
+                0
+            );
         }
 
         return this;
