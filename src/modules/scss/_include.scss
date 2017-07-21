@@ -1,0 +1,24 @@
+@import "./func";
+
+@mixin deco($img,$w,$h,$size:100%,$z:false) {
+    display: block;
+    background: url($img) center no-repeat;
+    width: px2rem($w);
+    height: px2rem($h);
+    background-size: $size;
+    @if($z){
+        position: absolute;
+        z-index: $z;
+    }
+}
+
+@mixin abs($top,$left,$z:auto) {
+    position: absolute;
+    z-index: $z;
+    top: px2rem($top);
+    left: px2rem($left);
+}
+
+@mixin background-image-spaced($width, $height, $margin-right, $image) {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="#{$width + $margin-right}" height="#{$height}"><image width="#{$width}" height="#{$height}" xlink:href="data:image/png;base64,#{$image}" /></svg>');
+}
