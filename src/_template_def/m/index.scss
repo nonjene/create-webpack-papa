@@ -1,0 +1,12 @@
+@import "src/modules/scss/animation";
+@import "src/modules/scss/normalize_m";
+@import "./scss/func";
+
+.container {
+
+}
+.example{
+    background: url('./img/example.jpg') no-repeat center;
+    background-size:contain;
+    min-height: pr(990);
+}
