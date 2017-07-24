@@ -1,26 +1,5 @@
 @import "./func";
 
-.animat {
-    opacity: 0;
-}
-
-.ani-d-1 {
-    animation-delay: .1s !important;
-}
-.ani-d-2 {
-    animation-delay: .2s !important;
-}
-@keyframes rotateIn {
-    0% {
-        transform: rotate(-35deg);
-        opacity: 0;
-    }
-    100% {
-        transform: rotate(0deg);
-        opacity: 1;
-    }
-}
-
 @keyframes fadeIn {
     0% {
         opacity: 0;

@@ -3,10 +3,9 @@
 @import "./scss/func";
 
 .container {
-
 }
-.example{
+.example {
     background: url('./img/example.jpg') no-repeat center;
-    background-size:contain;
+    background-size: contain;
     min-height: pr(990);
 }

@@ -1,5 +1,5 @@
 require("./header.scss");
 
-function header(i, isPureText) {}
+function header(i) {}
 
 module.exports = header;
