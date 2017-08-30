@@ -5,14 +5,6 @@ import "./main.scss";
 
 import Example1 from "./mod_example";
 
-/**
- * test:
- *  css module
- *  spread
- *  es6
- *  Object.asgin
- *
- */
 
 ReactDOM.render((
 
