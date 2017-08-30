@@ -1,13 +1,9 @@
 {
     "name": "ok-papa-seed",
-    "version": "1.0.0",
+    "version": "3.0.0",
     "description": "Directory Structure for ok-papa-cli, a frontend projects solution.",
     "main": "",
-    "scripts": {
-        "watch": "webpack --progress --colors --watch --config ./bin/webpack.config.js",
-        "build": "webpack --progress --colors --config ./bin/webpack.config.js",
-        "start": "serve -p 3005"
-    },
+    "scripts": {},
     "author": "nonjene",
     "license": "MIT",
     "dependencies": {
