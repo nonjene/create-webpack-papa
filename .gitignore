@@ -4,4 +4,3 @@ dist/**
 !dist/.gitkeep
 build/**
 !build/.gitkeep
-resource/bundle/common.js
