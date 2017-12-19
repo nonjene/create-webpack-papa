@@ -1,12 +1,18 @@
 {
     "name": "ok-papa-seed",
-    "version": "3.0.0",
+    "version": "1.0.1",
     "description": "Directory Structure for ok-papa-cli, a frontend projects solution.",
     "main": "",
-    "scripts": {},
+    "scripts": {
+        "start": "okpapa",
+        "watch":"okpapa w",
+        "build": "okpapa r",
+        "copystatic":"okpapa --copy-static"
+    },
     "author": "nonjene",
     "license": "MIT",
     "dependencies": {
+        "ok-papa-cli": ">=3.0.4",
         "react": "^15.5.4",
         "react-dom": "^15.5.4"
     },
@@ -16,7 +22,10 @@
         "type": "git",
         "url": "https://github.com/nonjene/ok-papa-seed"
     },
-    "keywords": ["frontend", "projects solution"],
+    "keywords": [
+        "frontend",
+        "projects solution"
+    ],
     "bugs": {
         "url": "https://github.com/nonjene/ok-papa-seed/issues"
     },
