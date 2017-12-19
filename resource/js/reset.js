@@ -1,6 +1,13 @@
 (function(window, doc) {
   window.okPapa = window.okPapa || {};
-  window.okPapa.browser = {};
+  window.okPapa.browser = {
+    versions:function () {
+      var u = navigator.userAgent;
+      return {
+          mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+      };
+  }(),
+  };
   // 辨别是否为移动端的规则，2中1即可：
   // 1.路径必须包含/m/或是/m$
   // 2.参数是p=m
