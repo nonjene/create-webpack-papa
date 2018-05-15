@@ -1,4 +1,4 @@
-{
+module.exports = {
   "ftp": {
     "host": "192.168.2.228",
     "port": "",
@@ -13,7 +13,7 @@
   "proxyPort": 80,
   "servePort": 3005,
   "staticFileConcatOrder": ["reset.js", "responsive.js", "config.js"],
-  "commonVersion":"12",
+  "commonVersion": "12",
   "webpackConfig": {
     "resolve": {
       "alias": {
