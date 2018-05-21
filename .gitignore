@@ -1,6 +1,6 @@
 node_modules
 .idea
-dist/**
-!dist/.gitkeep
-build/**
-!build/.gitkeep
+seed/dist/**
+!seed/dist/.gitkeep
+seed/build/**
+!seed/build/.gitkeep

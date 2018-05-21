@@ -1,3 +1,3 @@
-#ok-papa-seed
+#ok-papa-cli
 
-[ok-papa-script](https://github.com/nonjene/ok-papa-script)的项目目录模版。
+[ok-papa-script](https://github.com/nonjene/ok-papa-script)的cli。
