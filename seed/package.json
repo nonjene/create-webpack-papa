@@ -1,17 +1,18 @@
 {
-    "name": "ok-papa-seed",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "ok-papa-script": ">=3.0.4",
-        "react": "^15.5.4",
-        "react-dom": "^15.5.4"
-    },
-    "scripts": {
-        "start": "okpapa",
-        "watch":"okpapa w",
-        "build": "okpapa r",
-        "deploystatic":"okpapa --deploy-static",
-        "eject": "okpapa eject"
-    }
+  "name": "ok-papa-seed",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ok-papa-script": ">=3.0.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "scripts": {
+    "start": "okpapa",
+    "create": "okpapa C",
+    "watch": "okpapa w",
+    "build": "okpapa r",
+    "deploystatic": "okpapa --deploy-static",
+    "eject": "okpapa eject"
+  }
 }
