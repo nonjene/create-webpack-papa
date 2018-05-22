@@ -34,7 +34,7 @@ const defCwd = process.cwd();
 if (program.create) {
   const dir = path.join(process.cwd(), program.create);
   if (fs.existsSync(dir)) {
-    return log(chalk.red(`🌚  ${program.create}文件夹已存在，请检查.`));
+    return log(chalk.red(`🌚  ${program.create} 已存在。请重新命名`));
   }
   log(`正在创建${dir} 创建项目...`)
   shell.mkdir(program.create);
@@ -59,4 +59,5 @@ if (program.create) {
     }
   });
 }
+//todo: eject
 
