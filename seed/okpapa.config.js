@@ -1,4 +1,4 @@
-module.exports = {
+module.exports =  {
   ftp: {
     host: '192.168.1.1',
     port: '',
@@ -6,18 +6,28 @@ module.exports = {
     password: 'ps'
   },
   remoteBasePath: '', //ftp的基目录，用于打印地址时方便排除。m.okpapa.com
-  remotePath: '/activity/{$target}',
+  remotePath: '/activity/{$target}/',
   localAssetPath: 'build/activity',
   domainName: 'http://m.okpapa.com',
   cdnDomain: 'https://images.okpapa.com',
-  proxyPort: 80,
+  //代理
+  proxy:[
+    {
+      filterPathname: /^\/(?!activity\/)/,  // 代理pathname非以activity开头的所有请求
+      target: 'http://localhost:80',
+    },
+  ],
+  //开发环境端口
   servePort: 3005,
-  staticFileConcatOrder: [], //选定需要合并的文件，必须在 resource/js 里
+   //选定需要合并的非模块的文件，必须在 resource/js 里
+  staticFileConcatOrder: [],
   staticFileSubPath:'static',
   staticFileName:'common.js',
-  seedUrl: 'https://github.com/nonjene/ok-papa-seed.git',
+
   webpackConfig: {},
-  //commonVersion: '',
+  //是否支持ie8
+  kiss_ie8: true,
+
   // 编译一个单独的页面时，目录里面必须包含其中一个文件夹的定义
   commSingleProjSubPage:['m', 'pc'],
   // 获取所有项目时，排除以下这些文件夹里面的内容
