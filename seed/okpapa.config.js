@@ -26,7 +26,7 @@ module.exports =  {
 
   webpackConfig: {},
   //是否支持ie8
-  kiss_ie8: true,
+  kiss_ie8: false,
 
   // 编译一个单独的页面时，目录里面必须包含其中一个文件夹的定义
   commSingleProjSubPage:['m', 'pc'],

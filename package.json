@@ -1,7 +1,7 @@
 {
   "name": "ok-papa-cli",
   "bin": {
-    "papa-proj": "./index.js"
+    "papa-proj": "./bin/index.js"
   },
   "version": "1.0.0",
   "description": "",
