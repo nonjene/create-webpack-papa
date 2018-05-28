@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "okpapa",
-    "create": "okpapa C",
+    "create": "okpapa c",
     "watch": "okpapa w",
     "build": "okpapa r",
     "deploystatic": "okpapa --deploy-static",
