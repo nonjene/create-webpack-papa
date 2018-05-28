@@ -20,10 +20,12 @@ const createSucc = (name)=>{
   log(colorify('  cd')+` ${name}`);
   log(colorify('  npm run create') + ' my-app');
   log(colorify('  npm run watch') + ' my-app');
-  log('\n')
+  log();
 };
 const createFail = name=>{
-  log(chalk.yellow(`安装依赖包时出错，请进入${name}运行“${chalk.cyan('npm install')}”`));
+  log(chalk.yellow(`自动安装依赖包时出错，请运行:\n`));
+  log(colorify(`  cd ${name}`));
+  colorify(`  npm install`);
 }
 
 module.exports = {
