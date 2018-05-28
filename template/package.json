@@ -14,7 +14,7 @@
     "create": "okpapa c",
     "watch": "okpapa w",
     "build": "okpapa r",
-    "deploystatic": "okpapa --deploy-static",
+    "deploystatic": "okpapa deploy-static",
     "eject": "okpapa eject"
   }
 }

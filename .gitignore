@@ -1,10 +1,10 @@
 node_modules
 .idea
-seed/dist/**
-!seed/dist/.gitkeep
-seed/build/**
-!seed/build/.gitkeep
-seed/resource/bundle/*
-!seed/resource/bundle/img
+template/dist/**
+!template/dist/.gitkeep
+template/build/**
+!template/build/.gitkeep
+template/resource/bundle/*
+!template/resource/bundle/img
 
 test
