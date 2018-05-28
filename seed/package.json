@@ -2,8 +2,10 @@
   "name": "project-name",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "ok-papa-script": ">=3.0.4"
+  },
   "dependencies": {
-    "ok-papa-script": ">=3.0.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
