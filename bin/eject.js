@@ -2,7 +2,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { spawnSync } = require('child_process');
-const { cyan, yellow } = require('chalk');
+const { cyan, yellow, green } = require('chalk');
 const shell = require('shelljs');
 const inquirer = require('inquirer');
 
