@@ -1,8 +1,8 @@
 
 const chalk = require('chalk');
 
-const log = c => console.log(c);
-const colorify = (c) => chalk.cyan(c);
+const log = (c=" ") => console.log(c);
+const colorify = (c=" ") => chalk.cyan(c);
 
 const createSucc = (name)=>{
   log((`🌈  完成! ${name}已创建.`));
