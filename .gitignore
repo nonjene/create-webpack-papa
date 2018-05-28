@@ -6,3 +6,5 @@ seed/build/**
 !seed/build/.gitkeep
 seed/resource/bundle/*
 !seed/resource/bundle/img
+
+test

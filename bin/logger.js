@@ -28,6 +28,7 @@ const createFail = name=>{
 
 module.exports = {
   log,
+  colorify,
   createSucc,
   createFail
 }
