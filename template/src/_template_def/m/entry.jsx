@@ -1,4 +1,4 @@
-const React    = require('react14');
+const React    = require('react');
 const ReactDOM = require('react-dom');
 
 const App = require('./App');

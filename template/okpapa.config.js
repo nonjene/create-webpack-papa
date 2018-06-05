@@ -19,6 +19,7 @@ module.exports = {
   ],
   //开发环境端口
   servePort: 3005,
+  serveContentBase:'./build/',
    //选定需要合并的非模块的文件，必须在 resource/js 里
   staticFileConcatOrder: [],
   staticFileSubPath:'static',
