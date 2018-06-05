@@ -17,7 +17,7 @@ module.exports = function(name){
   log(`正在${dir} 创建项目...`);
   
   shell.mkdir('-p', dir);
-  shell.cp('-R', path.join(__dirname, '../seed/*'), dir);
+  shell.cp('-R', path.join(__dirname, '../template/*'), dir);
 
   log(`准备安装依赖包...`);
   const install = spawn(
