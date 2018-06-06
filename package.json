@@ -1,23 +1,23 @@
 {
-  "name": "ok-papa-cli",
+  "name": "create-webpack-papa",
   "bin": {
     "papa-proj": "./bin/index.js"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nonjene/ok-papa-cli.git"
+    "url": "git+https://github.com/nonjene/create-webpack-papa.git"
   },
   "author": "nonjene",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nonjene/ok-papa-cli/issues"
+    "url": "https://github.com/nonjene/create-webpack-papa/issues"
   },
-  "homepage": "https://github.com/nonjene/ok-papa-cli#readme",
+  "homepage": "https://github.com/nonjene/create-webpack-papa#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
