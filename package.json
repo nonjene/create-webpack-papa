@@ -1,7 +1,7 @@
 {
   "name": "create-webpack-papa",
   "bin": {
-    "papa-proj": "./bin/index.js"
+    "create-webpack-papa": "./bin/index.js"
   },
   "version": "1.0.6",
   "description": "",

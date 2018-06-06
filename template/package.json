@@ -10,11 +10,11 @@
     "react-dom": "^0.14.9"
   },
   "scripts": {
-    "start": "okpapa",
-    "create": "okpapa c",
-    "watch": "okpapa w",
-    "build": "okpapa r",
-    "deploystatic": "okpapa deploy-static",
-    "eject": "papa-proj eject"
+    "start": "papa",
+    "create": "papa c",
+    "watch": "papa w",
+    "build": "papa r",
+    "deploystatic": "papa deploy-static",
+    "eject": "create-webpack-papa eject"
   }
 }
