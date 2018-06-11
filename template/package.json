@@ -14,7 +14,8 @@
     "create": "papa c",
     "watch": "papa w",
     "build": "papa r",
-    "deploystatic": "papa deploy-static",
+    "build-all": "papa ra",
+    "deploy-static": "papa deploy-static",
     "eject": "create-webpack-papa eject"
   }
 }
