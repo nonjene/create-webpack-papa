@@ -3,7 +3,7 @@
   "bin": {
     "create-webpack-papa": "./bin/index.js"
   },
-  "version": "1.0.7",
+  "version": "3.2.2",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
