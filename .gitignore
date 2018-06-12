@@ -7,5 +7,6 @@ template/build/**
 !template/build/.gitkeep
 template/resource/bundle/*
 !template/resource/bundle/img
+!template/resource/bundle/es5-shim-sham.min.js
 
 test
