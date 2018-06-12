@@ -73,6 +73,5 @@ module.exports = {
       mode:"{$mode}",
       debug:{$debug}
     });
-    Object.freeze(window.publicConfig);
   }catch(e){}`,
 };
